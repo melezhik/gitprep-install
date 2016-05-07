@@ -1,5 +1,6 @@
 {
   "version" : "0.1.0",
   "name" : "gitprep",
-  "description" : "Installs, configures gitprep."
+  "description" : "Installs, configures gitprep",
+  "url" : "https://github.com/melezhik/gitprep-install"
 }
