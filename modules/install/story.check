@@ -1,0 +1,8 @@
+generator: <<CODE
+!bash
+gitprep_user=$(config gitprep_user)
+echo gitprep user exists: $gitprep_user
+CODE
+
+Installed dependencies for .. Finishing
+All tests successful
