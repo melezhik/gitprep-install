@@ -1,6 +1,6 @@
 # SYNOPSIS
 
-Installs, configures [gitprep](https://github.com/yuki-kimoto/gitprep) server.
+Installs, runs, stops [gitprep](https://github.com/yuki-kimoto/gitprep) server.
 
 # INSTALL
 
