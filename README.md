@@ -10,7 +10,7 @@ Installs, runs, stops [gitprep](https://github.com/yuki-kimoto/gitprep) server.
 
 # Actions
 
-## Install gitprep server:
+## Install gitprep server
 
     # default action is `install'
     $ sparrow plg run gitprep
@@ -18,11 +18,11 @@ Installs, runs, stops [gitprep](https://github.com/yuki-kimoto/gitprep) server.
     # or say explicitly
     $ sparrow plg run gitprep --param action=install
 
-# Run gitprep server
+## Run gitprep server
 
     $ sparrow plg run gitprep --param action=start
 
-# Stop gitprep server
+## Stop gitprep server
 
     $ sparrow plg run gitprep --param action=stop
 
