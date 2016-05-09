@@ -1,5 +1,5 @@
 {
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "gitprep",
   "description" : "Installs, runs, stops gitprep server",
   "url" : "https://github.com/melezhik/gitprep-install"
