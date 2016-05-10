@@ -6,7 +6,7 @@ case "$action" in
   run_story install
   ;;
 
-  "run" )
+  "start" )
   run_story run_server
   ;;
 
