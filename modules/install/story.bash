@@ -1,3 +1,5 @@
+git --version || exit 1
+
 gitprep_user=$(config gitprep_user)
 sudo useradd -m --shell `which bash` $gitprep_user
 echo gitprep user exists: `id -un $gitprep_user`
