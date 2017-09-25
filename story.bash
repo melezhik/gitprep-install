@@ -2,9 +2,9 @@ set -e
 
 gitprep_user=$(config gitprep_user)
 
-useradd -m --shell `which bash` $gitprep_user
-
-echo gitprep user exists: `id -un $gitprep_user`
+if ! id $gitprep_user 2>/dev/null; then
+  useradd -m --shell `which bash` $gitprep_user
+fi
 
 if ! test -f /home/$gitprep_user/gitprep-latest.tar.gz; then
   su -l -c 'curl -kL https://github.com/yuki-kimoto/gitprep/archive/latest.tar.gz \
